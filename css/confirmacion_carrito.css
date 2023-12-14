@@ -1,0 +1,64 @@
+
+
+.detalles {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: auto; /* Agregado para permitir desplazamiento en caso de contenido desbordante */
+}
+
+.detalles h2 {
+    color: #333;
+}
+
+.cart {
+    margin-bottom: 20px;
+}
+
+.cart ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cart li {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.cart li strong {
+    font-weight: bold;
+}
+
+.cart-end {
+    text-align: right;
+}
+
+.cart-end p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #4caf50;
+}
+
+.cart-end button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.cart-end a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #337ab7;
+    color: #fff;
+}
+

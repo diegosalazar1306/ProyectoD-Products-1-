@@ -1,0 +1,109 @@
+html {
+  height: 100%;
+  font-family: Montserrat-Regular, sans-serif;
+}
+.banner {
+    background-color: #f8d49d;
+    width: 100%;
+    padding: 2em 0;
+  }
+  .row {
+    align-items: center;
+  }
+  h1 {
+    text-shadow: 1px 1px 2px #7c7c7c;
+  }
+  .btn {
+    padding: 0.5em 1.5em;
+    border-radius: 2em;
+    box-shadow: 5px 5px 5px rgba(105, 73, 73, 0.15);
+  }
+  @media screen and (max-width: 567px) {
+    .banner {
+      text-align: center;
+    }
+  }
+
+  .fixed-size-image {
+    width: 600px; 
+    height: 300px;
+    object-fit: cover; 
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  max-width: 1100px;
+}
+
+.card{
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.card:hover{
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+  transform: translateY(-3%);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card .contenido{
+  padding: 15px;
+  text-align: center;
+}
+
+.card .contenido p{
+  line-height: 1.5;
+  color: #6a6a6a;
+}
+
+.card .contenido h3{
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.card .contenido a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  color: #2fb4cc;
+  border: 1px solid #2fb4cc;
+  border-radius: 4px;
+  transition: all 400ms ease;
+}
+
+.card .contenido a:hover{
+  background: #2fb4cc;
+  color: #fff;
+}
+
+.card .contenido button.custom-btn {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  color: #2fb4cc;
+  border: 1px solid #2fb4cc;
+  border-radius: 4px;
+  transition: all 400ms ease;
+}
+
+.card .contenido button.custom-btn:hover {
+  background: #2fb4cc;
+  color: #fff;
+}
+
+
+
